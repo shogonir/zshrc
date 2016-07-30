@@ -6,8 +6,9 @@ alias ...='../..'
 alias ....='../../..'
 
 # display
-PROMPT='%n@%m $ '
-RPROMPT='[%d]'
+PROMPT='
+%d
+%n@%m $ '
 
 # pushd
 setopt auto_pushd
